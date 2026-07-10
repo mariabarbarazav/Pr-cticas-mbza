@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,119 +13,180 @@
 box-sizing:border-box;
 }
 
-html, body{
+html,body{
+
 margin:0;
 padding:0;
-background:#000;
+
+background:#fff;
+
 font-family:Arial, Helvetica, sans-serif;
-color:white;
+
+color:#000;
+
 -webkit-print-color-adjust:exact;
 print-color-adjust:exact;
+
 }
 
+
 .flyer{
+
 min-height:100vh;
-background:#000;
+
+background:#fff;
+
 text-align:center;
-padding-bottom:40px;
+
 }
 
 
 /* BANNER NEGRO */
+
 .banner{
+
 height:230px;
+
 background:#000;
-border-bottom:1px solid #333;
+
 }
 
 
-/* FOTO DE PERFIL */
+/* FOTO */
+
 .foto{
+
 width:150px;
+
 height:150px;
+
 border-radius:50%;
-border:4px solid white;
+
+border:5px solid #fff;
+
 object-fit:cover;
+
 margin-top:-75px;
-background:#111;
+
 }
 
 
 /* NOMBRE */
+
 .nombre{
+
 font-size:38px;
+
 font-weight:800;
+
 letter-spacing:2px;
+
 margin:25px 20px 10px;
+
 }
 
 
-/* TITULO */
+/* PROFESIÓN */
+
 .titulo{
+
 font-size:18px;
-color:#ccc;
-letter-spacing:1px;
+
+color:#444;
+
 }
 
 
 /* PRESENTACIÓN */
+
 .descripcion{
+
 max-width:650px;
+
 margin:30px auto;
+
 padding:0 25px;
+
 font-size:16px;
+
 line-height:1.7;
-color:#ddd;
+
+color:#333;
+
 }
 
 
+
 /* BOTONES */
+
 .boton{
+
 display:block;
+
 width:320px;
+
 max-width:85%;
+
 margin:18px auto;
+
 padding:16px;
 
-background:#000;
-color:white;
 
-border:2px solid white;
-border-radius:40px;
+background:#000;
+
+color:#fff;
+
+
+border-radius:35px;
 
 text-decoration:none;
+
 font-weight:bold;
+
 letter-spacing:1px;
+
+
 }
 
 
 /* PIE */
+
 .footer{
+
 margin-top:45px;
-color:#777;
+
 font-size:13px;
+
+color:#777;
+
 }
+
 
 
 @media print{
 
-html,body{
+
+.banner{
+
 background:#000 !important;
+
 }
 
-.flyer{
-background:#000 !important;
-}
 
 .boton{
+
 background:#000 !important;
-color:white !important;
-border:2px solid white !important;
-}
+
+color:#fff !important;
 
 }
+
+
+}
+
 
 </style>
+
 
 </head>
 
@@ -138,56 +200,82 @@ border:2px solid white !important;
 <div class="banner"></div>
 
 
-<img class="foto" 
+<img class="foto"
 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400"
 alt="Foto de perfil">
 
 
 <div class="nombre">
+
 María Bárbara Zavala Alvarado
+
 </div>
 
 
 <div class="titulo">
+
 Administración de Empresas · Diseño Digital · Programación
+
 </div>
 
 
 <div class="descripcion">
 
 Profesional enfocada en negocios, innovación,
-diseño digital y desarrollo de proyectos.
+diseño digital y tecnología.
 
 <br><br>
 
-Creando ideas con estrategia, creatividad
-y visión empresarial.
+Creando proyectos con estrategia,
+creatividad y visión empresarial.
 
 </div>
 
 
-<a class="boton" href="#">
+
+<a class="boton"
+href="https://mariabarbarazav.github.io/Pr-cticas-mbza/"
+target="_blank">
+
 PORTAFOLIO
+
 </a>
 
 
-<a class="boton" href="#">
+
+<a class="boton"
+href="https://github.com/mariabarbarazav"
+target="_blank">
+
 GITHUB
+
 </a>
 
 
-<a class="boton" href="#">
-LINKEDIN
-</a>
 
+<a class="boton"
+href="mailto:tu-correo@ejemplo.com">
 
-<a class="boton" href="#">
 CONTACTO
+
 </a>
+
+
+
+<a class="boton"
+href="https://www.linkedin.com/"
+target="_blank">
+
+LINKEDIN
+
+</a>
+
 
 
 <div class="footer">
+
 MBZA Collection © 2026
+
 </div>
 
 
@@ -195,4 +283,5 @@ MBZA Collection © 2026
 
 
 </body>
+
 </html>
